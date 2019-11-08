@@ -1,0 +1,29 @@
+{
+  "name": "setlist-fm-connector",
+  "version": "0.0.1",
+  "description": "A connector to the Setlist.FM API for a Web GIS application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/setlist-fm-connector.git"
+  },
+  "keywords": [
+    "setlist.fm",
+    "gis",
+    "arcgis",
+    "tour",
+    "artists",
+    "songs"
+  ],
+  "author": "Niklas Köhn, Esri Deutschland",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

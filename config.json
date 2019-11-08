@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://api.setlist.fm/rest/1.0",
+    "apiKey": "<enter API key>",
+    "artists": "/search/artists?artistName=",
+    "setlists": "/search/setlists?artistName=",
+    "page": "&p="
+  }
